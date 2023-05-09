@@ -1,4 +1,4 @@
-require 'podding/static_pod_boilerplate.rb'
+require_relative '../third_party_common'
 
 filename = File.basename(__FILE__, '.podspec')
 

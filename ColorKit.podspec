@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/pichirichi/ColorKit', :tag => s.version }
   s.ios.deployment_target = '12.0'
   s.watchos.deployment_target = '2.0'
+  s.osx.deployment_target = '10.12'
   s.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6', '5.7']
   s.source_files = 'Sources/SwiftPriorityQueue/SwiftPriorityQueue.swift'
   s.source_files          = 'ColorKit/ColorKit/*.swift', 'ColorKit/ColorKit/Extensions/*.swift'
